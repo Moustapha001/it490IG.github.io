@@ -1,10 +1,6 @@
 <script>
 
-fetch('https://api.instagram.com/oauth/authorize
-  ?client_id=226838558508870
-  &redirect_uri=//https:moustapha001.github.io/it490IG.github.io/Login.html
-  &scope=user_profile,user_media
-  &response_type=code')
+fetch('https://api.instagram.com/v1/self/media/recent?access_token=IGQVJYNy11U19ZARkZAaanpDekRTT2ppUG5SekNhUThQOGNDajF5TVFjNG9kSWU5MkpDZAUdxSV90UFhWeVdFdmZAQUm96NkJ4aGNCendLRlNZASnJGdXJMVUZALVzBjZA0lNWVM1SlJUWFN2SXc4RzlVMHZAtegZDZD')
       
   .then((response) => {
     return response.json();

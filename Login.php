@@ -1,3 +1,8 @@
+<?php
+ require "InstagramAPI.php";
+?>
+
+
 <!DOCTYPE html>
 <meta charset = "utf-8" >
 <body background="backg.jpg">
@@ -18,9 +23,10 @@
   </style>
 
    
- <form action = "InstagramApi.js" id="myform" onsubmit="return f()"> 
+ 
   <fieldset>
     <button type="submit"> Login to Instagram </button><br>
+    <input onclick="javascript: window.location = '<?php echo $Instagram ->getLoginURL() ?>'
    </fieldset><br>
 </form><br>
 

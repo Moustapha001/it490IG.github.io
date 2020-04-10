@@ -4,7 +4,7 @@
   $Instagram = new InstagramAPI($settings);
   
   class InstagramAPI {
-     var $clientID = "";
+     var $clientID = "" ;
      var $clientSecret = "";
      var $redirectURL = "";
      
